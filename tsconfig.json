@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs", // Changed from esnext
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "allowJs": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true
+    },
+    "include": ["src/**/*"]
+  }
